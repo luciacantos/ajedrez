@@ -29,4 +29,8 @@ def movimientos(tablero):
             print(imprimir_tablero(tablero))
             print(" ")
             print("Movimientos realizados: ", movimiento)
-
+        elif respuesta == "2":
+            print("El tablero se quedará igual.")
+            break
+        else:
+            print("ingrese una opcion valida")
