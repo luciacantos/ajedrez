@@ -43,6 +43,7 @@ def movimientos(tablero_inicial):
             print("Movimiento N°", movimiento)
         elif respuesta == "2":
             print("El tablero se quedará igual.")
+            print("Ha realizado", movimiento, " movimientos.")
             break
         else:
             print("ingrese una opcion valida")
