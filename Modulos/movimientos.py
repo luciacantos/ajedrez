@@ -18,4 +18,7 @@ def movimientos(tablero):
             fila_d = int(input("Fila: "))#fila destino de la ficha
             columna_d = int(input("Columna: "))#columna destino de la ficha
             print(" ")
-
+            #coloca la ficha que mueve en la casilla destino
+            tablero[fila_d - 1][columna_d - 1] = tablero[fila_o - 1][columna_o - 1]
+            #coloca un espacio en la casilla origen para que desaparezca la ficha
+            tablero[fila_o - 1][columna_o - 1] = " "
