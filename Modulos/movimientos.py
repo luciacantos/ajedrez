@@ -22,3 +22,11 @@ def movimientos(tablero):
             tablero[fila_d - 1][columna_d - 1] = tablero[fila_o - 1][columna_o - 1]
             #coloca un espacio en la casilla origen para que desaparezca la ficha
             tablero[fila_o - 1][columna_o - 1] = " "
+
+            #sumamos un movimiento al contador
+            movimiento = movimiento + 1
+
+            print(imprimir_tablero(tablero))
+            print(" ")
+            print("Movimientos realizados: ", movimiento)
+
